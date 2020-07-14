@@ -1,0 +1,21 @@
+.spin {
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    /*从0度开始*/
+  }
+  100% {
+    transform: rotate(360deg);
+    /*360度结束*/
+  }
+}
+
+.active {
+	animation-play-state: running;
+}
+.paused {
+	animation-play-state: paused;
+}
